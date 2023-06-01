@@ -1,3 +1,3 @@
 tabuada = lambda x,y: x * y
 
-print
+print(tabuada(2,7))
