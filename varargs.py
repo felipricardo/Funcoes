@@ -1,4 +1,7 @@
-
+#print("texto")
+#print(123)
+#print(True)
+#print(True,123,"texto")
 
 def minhafuncao(*args):
     print(type(args))
