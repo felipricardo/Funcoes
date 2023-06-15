@@ -1,5 +1,5 @@
 """
-4)	Faça uma função que receba cinco valores inteiros, e retorne o maior valor. Faça uma segunda função que receba 
+4)	Faça uma função que receba cinco valores inteiros, e retorne o maior valor. Faça uma segunda função que receba
 também cinco valores e retorne o menor deles.
 """
 
@@ -9,6 +9,12 @@ def encontraMaior(*numeros):
         if i > omaior:
             omaior = i
     return omaior
+def encontrarMenor(*numeros):
+    omenor = numeros[0]
+    for i in numeros:
+        if i < omenor:
+            omenor = i
+    return omenor
 
 guardar_resultado = encontraMaior(1)
 print("guardar_resultado", guardar_resultado)
